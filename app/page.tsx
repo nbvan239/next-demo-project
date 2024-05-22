@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Login } from "./components/counter/Counter";
 
 export default function IndexPage() {
-  return <Login />;
+  return (
+    <html lang="en">
+      <body>Testing User </body>
+    </html>
+  );
 }
 
 export const metadata: Metadata = {
